@@ -20,4 +20,6 @@ public interface ChurchRepository extends JpaRepository<Church, Long> {
             .sorted(Comparator.comparingDouble(Entry::getValue))
             .map(Entry::getKey).findFirst();
   }
+
+  Optional<Church> findByName(String name);
 }
