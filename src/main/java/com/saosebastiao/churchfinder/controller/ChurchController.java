@@ -50,7 +50,7 @@ public class ChurchController {
   }
 
 
-  @GetMapping("/{churchName}")
+  @GetMapping("/name/{churchName}")
   @ResponseStatus(HttpStatus.OK)
   public Church findChurchByName(@PathVariable String churchName) {
     return service.findChurchByName(churchName);
