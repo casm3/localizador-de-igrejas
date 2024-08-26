@@ -1,0 +1,21 @@
+#Mon Aug 26 10:28:10 BRT 2024
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/repository/CoordinateRepository.java=1724678312474
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/ChurchController.java=1724678811447
+configuration*?=D4097A9B03BC7C197F8CFC2ACF39BC89B9A3B3C7
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/dto/CoordinateDto.java=1724678305596
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/ChurchfinderApplication.java=1724678870501
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/service/ChurchService.java=1724678655263
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/resources/application.properties=1724442503104
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/advice/GeneralControllerAdvice.java=1724678075147
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/util/CoordinateUtil.java=1724678283259
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/service/exception/InvalidCoordinateException.java=1724678065581
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/dto/EntityMapper.java=1724678198247
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/service/exception/CustomNotFoundException.java=1724678164467
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/repository/ChurchRepository.java=1724678743183
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/dto/ChurchDto.java=1724678111469
+module-resource*?\:checkstyle-xpath-suppressions.xml=DBECA372C3D7FAC4CF600B3DE7F8D9E52323C235
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/util/PropertyMapper.java=1724678054102
+module-resource*?\:checkstyle-suppressions.xml=838B5329DC83A352F0D17D17B65A1EB8243FF53C
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/entity/Church.java=1724677854237
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/service/exception/ChurchNotFoundException.java=1724678120533
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/entity/Coordinate.java=1724678299257

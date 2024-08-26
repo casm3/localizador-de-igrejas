@@ -2,7 +2,10 @@ package com.saosebastiao.churchfinder.controller.dto;
 
 import com.saosebastiao.churchfinder.entity.Coordinate;
 
-public record ChurchDto (
+/**
+ * The type Church dto.
+ */
+public record ChurchDto(
         String name,
         Coordinate coordinate,
         String url

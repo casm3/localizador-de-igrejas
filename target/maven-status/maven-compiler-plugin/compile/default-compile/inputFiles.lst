@@ -1,0 +1,16 @@
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/ChurchfinderApplication.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/ChurchController.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/advice/GeneralControllerAdvice.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/dto/ChurchDto.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/dto/CoordinateDto.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/controller/dto/EntityMapper.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/entity/Church.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/entity/Coordinate.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/repository/ChurchRepository.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/repository/CoordinateRepository.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/service/ChurchService.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/service/exception/ChurchNotFoundException.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/service/exception/CustomNotFoundException.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/service/exception/InvalidCoordinateException.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/util/CoordinateUtil.java
+/Users/carlos/IdeaProjects/localizador-de-igrejas/src/main/java/com/saosebastiao/churchfinder/util/PropertyMapper.java
