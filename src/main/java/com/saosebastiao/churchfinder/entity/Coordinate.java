@@ -1,4 +1,4 @@
 package com.saosebastiao.churchfinder.entity;
 
-public class Coordinate {
+public record Coordinate (double latitude, double longitude) {
 }
