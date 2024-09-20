@@ -35,7 +35,11 @@ public class EntityMapper {
     return coordinate;
   }
 
-  public static Person toPerson() {
-
+  public static Person toPerson(PersonDto personDto) {
+    Person person = new Person();
+    person.setUsername(personDto.username());
+    person.setPassword(personDto.password());
+    person.setRole(personDto.role());
+    return person;
   }
 }
