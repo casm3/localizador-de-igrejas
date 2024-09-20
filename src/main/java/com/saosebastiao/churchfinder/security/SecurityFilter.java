@@ -38,10 +38,10 @@ public class SecurityFilter extends OncePerRequestFilter {
   }
 
   private String recoveryToken(HttpServletRequest request) {
-    String authorization = request.getHeader("Authorization");
-    if (authorization != null) {
-      return authorization.replace("Bearer ", "");
+    String authHeader = request.getHeader("Authorization");
+    if (authHeader == null) {
+      return null;
     }
-    return null;
+    return authHeader.replace("Bearer ", "");
   }
 }

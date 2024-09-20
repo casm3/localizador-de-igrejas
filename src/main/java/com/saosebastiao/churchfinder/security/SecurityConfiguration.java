@@ -18,7 +18,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Configuration
 @EnableWebSecurity
-@EnableMethodSecurity
+@EnableMethodSecurity(securedEnabled = true)
 public class SecurityConfiguration {
   private final SecurityFilter securityFilter;
 
@@ -40,6 +40,7 @@ public class SecurityConfiguration {
                     .requestMatchers(HttpMethod.GET, "/v3/**").permitAll()
                     .requestMatchers(HttpMethod.GET, "/churches").permitAll()
                     .requestMatchers(HttpMethod.POST, "/churches").permitAll()
+                    .anyRequest().authenticated()
             ).addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class).build();
   }
 

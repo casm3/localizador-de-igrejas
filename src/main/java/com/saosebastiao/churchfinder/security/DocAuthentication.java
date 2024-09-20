@@ -4,7 +4,9 @@ import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.security.SecurityRequirement;
 import io.swagger.v3.oas.models.security.SecurityScheme;
 import org.springdoc.core.customizers.OpenApiCustomizer;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DocAuthentication implements OpenApiCustomizer {
   public final String SCHEME_NAME = "Bearer Auth";
 
