@@ -2,6 +2,7 @@ package com.saosebastiao.churchfinder.controller.dto;
 
 import com.saosebastiao.churchfinder.entity.Church;
 import com.saosebastiao.churchfinder.entity.Coordinate;
+import com.saosebastiao.churchfinder.entity.Person;
 
 /**
  * The type Entity mapper.
@@ -32,5 +33,9 @@ public class EntityMapper {
     coordinate.setLatitude(coordinateDto.latitude());
     coordinate.setLongitude(coordinateDto.longitude());
     return coordinate;
+  }
+
+  public static Person toPerson() {
+
   }
 }
