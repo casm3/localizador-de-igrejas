@@ -9,15 +9,29 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+/**
+ * The type Person service.
+ */
 @Service
 public class PersonService implements UserDetailsService {
   private final PersonRepository personRepository;
 
+  /**
+   * Instantiates a new Person service.
+   *
+   * @param personRepository the person repository
+   */
   @Autowired
   public PersonService(PersonRepository personRepository) {
     this.personRepository = personRepository;
   }
 
+  /**
+   * Create person.
+   *
+   * @param person the person
+   * @return the person
+   */
   public Person create(Person person) {
     String hashedPassword = new BCryptPasswordEncoder().encode(person.getPassword());
     person.setPassword(hashedPassword);

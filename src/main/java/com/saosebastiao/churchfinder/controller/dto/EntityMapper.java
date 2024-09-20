@@ -35,6 +35,12 @@ public class EntityMapper {
     return coordinate;
   }
 
+  /**
+   * To person person.
+   *
+   * @param personDto the person dto
+   * @return the person
+   */
   public static Person toPerson(PersonDto personDto) {
     Person person = new Person();
     person.setUsername(personDto.username());
